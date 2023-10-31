@@ -6,8 +6,10 @@ export default function Cslider() {
   const { load, courses } = useHook();
   if (courses) console.log("true");
   return (
-    <div id="container" class="flex flex-col my-24">
-      <h1 class="text-3xl text-gray-900 text-center mb-4">Courses We Offer</h1>
+    <div id="container" class="flex flex-col my-16">
+      <h1 class="text-3xl text-gray-900 text-center mb-4  font-bold">
+        <span className="text-indigo-600">Courses</span> We Offer
+      </h1>
       <div id="scrolling-content" class="flex overflow-x-scroll">
         {load ? (
           <div className="flex justify-center align-middle ">

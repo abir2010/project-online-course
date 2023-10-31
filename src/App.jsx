@@ -4,6 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Footer from "./Components/Footer/Footer";
 import Cslider from "./Components/Cslider/Cslider";
 import CourseProvider from "./Components/Contexts/CourseProvider";
+import Feature from "./Components/Feature/Feature";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <Cslider />
+      <Feature />
       <Footer />
     </CourseProvider>
   );
