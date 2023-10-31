@@ -15,6 +15,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import { HashLink as Link } from "react-router-hash-link";
 
 const products = [
   {
@@ -55,7 +56,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="relative">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
@@ -101,8 +102,8 @@ export default function Navbar() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">
-              Courses
+            <Popover.Button className="flex items-center gap-x-1 leading-6 text-gray-900 hover:text-indigo-600">
+              Catagory
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
@@ -168,36 +169,65 @@ export default function Navbar() {
             whileHover={{ scale: [null, 1.1, 1.15] }}
             transition={{ duration: 0.1 }}
           >
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600"
+            <Link
+              to="#courses"
+              smooth
+              className="leading-6 text-gray-900 hover:text-indigo-600 "
+            >
+              Courses
+            </Link>
+          </motion.div>
+          <motion.div
+            className="box"
+            whileHover={{ scale: [null, 1.1, 1.15] }}
+            transition={{ duration: 0.1 }}
+          >
+            <Link
+              to="#feature"
+              smooth
+              className="leading-6 text-gray-900 hover:text-indigo-600"
             >
               Features
-            </a>
+            </Link>
           </motion.div>
           <motion.div
             className="box"
             whileHover={{ scale: [null, 1.1, 1.15] }}
             transition={{ duration: 0.1 }}
           >
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600"
+            <Link
+              to="#pricing"
+              smooth
+              className="leading-6 text-gray-900 hover:text-indigo-600"
+            >
+              Pricing
+            </Link>
+          </motion.div>
+          <motion.div
+            className="box"
+            whileHover={{ scale: [null, 1.1, 1.15] }}
+            transition={{ duration: 0.1 }}
+          >
+            <Link
+              to="#about"
+              smooth
+              className="leading-6 text-gray-900 hover:text-indigo-600"
             >
               About Us
-            </a>
+            </Link>
           </motion.div>
           <motion.div
             className="box"
             whileHover={{ scale: [null, 1.1, 1.15] }}
             transition={{ duration: 0.1 }}
           >
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600"
+            <Link
+              to="#contact"
+              smooth
+              className="leading-6 text-gray-900 hover:text-indigo-600"
             >
               Contact
-            </a>
+            </Link>
           </motion.div>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -267,7 +297,7 @@ export default function Navbar() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Courses
+                        Catagory
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",
@@ -291,24 +321,34 @@ export default function Navbar() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="#"
+                <Link
+                  to="#courses"
+                  smooth
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
+                >
+                  Courses
+                </Link>
+                <Link
+                  to="#feature"
+                  smooth
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   Features
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#about"
+                  smooth
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   About Us
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#contact"
+                  smooth
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
               <div className="py-6">
                 <a

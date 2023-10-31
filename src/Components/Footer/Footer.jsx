@@ -1,8 +1,6 @@
-import Button from "./../Button/Button";
-
 export default function Footer() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 relative">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
@@ -186,7 +184,12 @@ export default function Footer() {
                 type="text"
                 className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
               />
-              <Button />
+              <button
+                type="submit"
+                className="bg-gray-900 w-auto py-3 rounded-3xl text-white font-bold"
+              >
+                Subscribe
+              </button>
             </form>
             <p className="mt-4 text-sm text-gray-500">
               Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken

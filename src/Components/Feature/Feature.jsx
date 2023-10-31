@@ -1,12 +1,15 @@
 import { LockClosedIcon } from "@heroicons/react/20/solid";
-import useHook from "../Hooks/useHook";
+import useHook from "../../Hooks/useHook";
 import featureImg from "../../images/featureImg.png";
 
 export default function Feature() {
   const { features } = useHook();
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="overflow-hidden my-12 sm:py-12 relative" id="feature">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <h1 class="text-2xl mb-12 font-normal text-center text-gray-900 capitalize lg:text-3xl">
+          <span className="text-indigo-600">Feat</span>ures
+        </h1>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">

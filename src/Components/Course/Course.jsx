@@ -4,7 +4,7 @@ import Button from "./../Button/Button";
 export default function Course(props) {
   const { id, name, image, des, price, duration, rating } = props.course;
   return (
-    <div class="w-96 h-auto px-4 flex-shrink-0">
+    <div class="h-auto px-4 flex-shrink-0">
       <div class="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
         <div class="relative flex items-end overflow-hidden rounded-xl">
           <img src={image} className="h-48" alt="wallpaper" />
@@ -28,14 +28,14 @@ export default function Course(props) {
           <p class="mt-1 text-sm text-slate-400">{des}</p>
           <div class="mt-3 flex items-end justify-between">
             <p>
-              <span class="text-lg font-bold text-orange-500">${price}</span>
+              <span class="text-lg font-bold text-indigo-600">${price}</span>
               <span class="text-sm text-slate-400"> | {duration} weeks</span>
             </p>
 
-            <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
+            <div class="group inline-flex rounded-xl bg-gray-200 p-2 hover:bg-indigo-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4 text-orange-400 group-hover:text-orange-500"
+                class="h-4 w-4  text-gray-500 group-hover:text-indigo-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >

@@ -23,11 +23,11 @@ export default function Banner() {
         <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col items-center justify-between xl:flex-row">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none lg:text-white">
+              <h2 className="text-normal max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none lg:text-white">
                 Learning Journey <br className="hidden md:block" />
                 begins here
               </h2>
-              <p className="max-w-xl mb-4 text-base text-gray-700 md:text-lg">
+              <p className="max-w-xl mb-4 text-base text-gray-100 md:text-lg">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudan, totam rem aperiam, eaque ipsa
                 quae.
@@ -48,7 +48,7 @@ export default function Banner() {
               </a>
             </div>
             <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
-              <div className="bg-gray-300 rounded shadow-2xl p-7 sm:p-10">
+              <div className="bg-gray-300 rounded-2xl shadow-2xl p-7 sm:p-10">
                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                   Sign up for updates
                 </h3>
@@ -102,7 +102,12 @@ export default function Banner() {
                     />
                   </div>
                   <div className="mt-4 mb-2 sm:mb-4">
-                    <Button />
+                    <button
+                      type="submit"
+                      className="bg-gray-900 w-full py-3 rounded-3xl text-white font-bold"
+                    >
+                      Subscribe
+                    </button>
                   </div>
                   <p className="text-xs text-gray-600 sm:text-sm">
                     We respect your privacy. Unsubscribe at any time.

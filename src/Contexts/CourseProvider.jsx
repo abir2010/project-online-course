@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import useCourses from "./../Hooks/useCourses";
+import useCourses from "../Hooks/useCourses";
 
 export const AuthContext = createContext();
 

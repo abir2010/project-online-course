@@ -2,7 +2,7 @@ import Button from "./../Button/Button";
 
 export default function Pricing() {
   return (
-    <div class="relative w-full h-full">
+    <div class="relative w-full h-full" id="pricing">
       <div class="absolute hidden w-full bg-gray-50 lg:block h-96" />
       <div class="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -30,9 +30,11 @@ export default function Pricing() {
                   height="24"
                 />
               </svg>
-              <span class="relative">Affordable</span>
+              <span class="relative font-normal text-indigo-600">
+                Affordable
+              </span>
             </span>{" "}
-            for everyone
+            <span className="font-normal">for everyone</span>
           </h2>
           <p class="text-base text-gray-700 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem

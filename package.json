@@ -14,10 +14,16 @@
     "@heroicons/react": "^2.0.18",
     "@hotwired/stimulus": "^3.2.2",
     "framer-motion": "^10.16.4",
+    "keen-slider": "^6.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-particles": "^2.12.2",
     "react-router-dom": "^6.17.0",
-    "react-toastify": "^9.1.3"
+    "react-router-hash-link": "^2.4.3",
+    "react-toastify": "^9.1.3",
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^11.0.3",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
