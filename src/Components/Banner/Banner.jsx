@@ -31,10 +31,10 @@ export default function Banner() {
                 accusantium doloremque laudan, totam rem aperiam, eaque ipsa
                 quae.
               </p>
-              <a
-                href="/"
+              <div
+                href="#"
                 aria-label=""
-                className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700"
+                className="inline-flex items-center font-normal text-white tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700"
               >
                 Learn more
                 <svg
@@ -44,7 +44,7 @@ export default function Banner() {
                 >
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                 </svg>
-              </a>
+              </div>
             </div>
             <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
               <div className="bg-gray-300 rounded-2xl shadow-2xl p-7 sm:p-10">
