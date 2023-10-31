@@ -2,6 +2,7 @@ export default function Statistic() {
   return (
     <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 row-gap-8 lg:grid-cols-3">
+        {/* download section */}
         <div>
           <div className="flex">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-indigo-600">
@@ -29,6 +30,7 @@ export default function Statistic() {
             Amazon. They’re very famous and very high-maintenance effort.
           </p>
         </div>
+        {/* subscribers section */}
         <div>
           <div className="flex">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-indigo-600">
@@ -56,6 +58,7 @@ export default function Statistic() {
             actors and their agents decide to head back to home base by foot.
           </p>
         </div>
+        {/* cookies section */}
         <div>
           <div className="flex">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-indigo-600">

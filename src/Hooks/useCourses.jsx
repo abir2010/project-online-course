@@ -5,6 +5,7 @@ const useCourses = () => {
   const [features, setFeatures] = useState([]);
   const [load, setLoad] = useState(true);
 
+  // fetching data from courses.json file
   useEffect(() => {
     fetch("/courses.json")
       .then((res) => res.json())
@@ -14,6 +15,7 @@ const useCourses = () => {
       });
   }, []);
 
+  // fetching data from features.json file
   useEffect(() => {
     fetch("/features.json")
       .then((res) => res.json())
@@ -23,6 +25,7 @@ const useCourses = () => {
       });
   }, []);
 
+  // returning an object
   return {
     load,
     courses,

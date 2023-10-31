@@ -20,6 +20,7 @@ export default function Cslider() {
             <span className="text-indigo-600">Courses</span> We Offer
           </h1>
         </div>
+        {/* Swiper Slider integration */}
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -43,6 +44,7 @@ export default function Cslider() {
           modules={[Pagination]}
           className="mySwiper"
         >
+          {/* sindle course component */}
           {load ? (
             <div className="flex justify-center align-middle ">
               <div className="w-16 h-16 border-4 border-indigo-600 border-dashed rounded-full animate-spin dark:border-indigo-600"></div>

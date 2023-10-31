@@ -5,10 +5,13 @@ export default function Testimonial() {
     <div className="relative">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
+          {/* title part */}
           <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
             <span className="text-indigo-600">Testim</span>onials
           </h1>
+          {/* description part */}
           <div class="flex flex-wrap -m-4">
+            {/* Person one */}
             <div class="p-4 md:w-1/2 w-full">
               <div class="h-full bg-gray-100 p-8 rounded">
                 <svg
@@ -40,6 +43,7 @@ export default function Testimonial() {
                 </a>
               </div>
             </div>
+            {/* Person two */}
             <div class="p-4 md:w-1/2 w-full">
               <div class="h-full bg-gray-100 p-8 rounded">
                 <svg

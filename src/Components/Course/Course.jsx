@@ -8,6 +8,7 @@ export default function Course(props) {
     <div className="relative">
       <div class="h-auto px-4 flex-shrink-0 ">
         <div class="cursor-pointer rounded-xl p-3 shadow-lg hover:shadow-xl">
+          {/* image section */}
           <div class="relative flex items-end overflow-hidden rounded-xl">
             <img src={image} className="h-48" alt="wallpaper" />
 
@@ -24,7 +25,7 @@ export default function Course(props) {
               <span class="ml-1 text-sm text-slate-400">{rating}/5</span>
             </div>
           </div>
-
+          {/* description section */}
           <div class="mt-1 p-2">
             <h2 class="text-slate-700">{name}</h2>
             <p class="mt-1 text-sm text-slate-400">{des}</p>
@@ -33,7 +34,7 @@ export default function Course(props) {
                 <span class="text-lg font-bold text-indigo-600">${price}</span>
                 <span class="text-sm text-slate-400"> | {duration} weeks</span>
               </p>
-
+              {/* icon section */}
               <div class="group inline-flex rounded-xl bg-gray-200 p-2 hover:bg-indigo-100">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

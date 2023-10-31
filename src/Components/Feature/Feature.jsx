@@ -7,10 +7,12 @@ export default function Feature() {
   return (
     <div className="overflow-hidden my-12 sm:py-12 relative" id="feature">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        {/* title section */}
         <h1 class="text-2xl mb-12 font-normal text-center text-gray-900 capitalize lg:text-3xl">
           <span className="text-indigo-600">Feat</span>ures
         </h1>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          {/* description section */}
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-indigo-600">
@@ -40,6 +42,7 @@ export default function Feature() {
               </dl>
             </div>
           </div>
+          {/* image section */}
           <img
             src={featureImg}
             alt="Product screenshot"

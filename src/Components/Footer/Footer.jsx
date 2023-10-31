@@ -4,6 +4,7 @@ export default function Footer() {
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+            {/* footer section one */}
             <div>
               <p className="font-medium tracking-wide text-gray-300">
                 Category
@@ -43,6 +44,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
+            {/* footer section two */}
             <div>
               <p className="font-medium tracking-wide text-gray-300">Apples</p>
               <ul className="mt-2 space-y-2">
@@ -88,6 +90,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
+            {/* footer section three */}
             <div>
               <p className="font-medium tracking-wide text-gray-300">Cherry</p>
               <ul className="mt-2 space-y-2">
@@ -133,6 +136,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
+            {/* footer section four */}
             <div>
               <p className="font-medium tracking-wide text-gray-300">
                 Business
@@ -173,6 +177,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/* footer section five */}
           <div className="md:max-w-md lg:col-span-2">
             <span className="text-base font-medium tracking-wide text-gray-300">
               Subscribe for updates
@@ -197,6 +202,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
+        {/* end line part */}
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
           <p className="text-sm text-gray-500">
             © Copyright 2023 Learn & Grow Inc. All rights reserved.

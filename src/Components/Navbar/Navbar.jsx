@@ -17,6 +17,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { HashLink as Link } from "react-router-hash-link";
 
+// products array
 const products = [
   {
     name: "Algorithm",
@@ -43,6 +44,7 @@ const products = [
     icon: SquaresPlusIcon,
   },
 ];
+// products array
 const callsToAction = [
   { name: "Watch demo", href: "#", icon: PlayCircleIcon },
   { name: "Contact", href: "#", icon: PhoneIcon },
@@ -61,6 +63,7 @@ export default function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
+        {/* title and logo section */}
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Learn & Grow</span>
@@ -90,6 +93,7 @@ export default function Navbar() {
             </span>
           </a>
         </div>
+        {/* button for mobile menu */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -100,6 +104,7 @@ export default function Navbar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
+        {/* drop down section */}
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 leading-6 text-gray-900 hover:text-indigo-600">
@@ -230,6 +235,7 @@ export default function Navbar() {
             </Link>
           </motion.div>
         </Popover.Group>
+        {/* Login section */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <motion.div
             className="box"
@@ -293,6 +299,7 @@ export default function Navbar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+                {/* catagory section */}
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -321,6 +328,7 @@ export default function Navbar() {
                     </>
                   )}
                 </Disclosure>
+                {/* courses section */}
                 <Link
                   to="#courses"
                   smooth
@@ -328,6 +336,7 @@ export default function Navbar() {
                 >
                   Courses
                 </Link>
+                {/* features section */}
                 <Link
                   to="#feature"
                   smooth
@@ -335,6 +344,7 @@ export default function Navbar() {
                 >
                   Features
                 </Link>
+                {/* about section */}
                 <Link
                   to="#about"
                   smooth
@@ -342,6 +352,7 @@ export default function Navbar() {
                 >
                   About Us
                 </Link>
+                {/* contact section */}
                 <Link
                   to="#contact"
                   smooth
@@ -350,6 +361,7 @@ export default function Navbar() {
                   Contact
                 </Link>
               </div>
+              {/* login section */}
               <div className="py-6">
                 <a
                   href="#"

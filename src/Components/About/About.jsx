@@ -5,17 +5,18 @@ export default function About() {
     <div id="about" className="relative">
       <section class="bg-white dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto">
+          {/* title and description section */}
           <h1 class="text-2xl font-normal text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
             Our <span className="text-indigo-600">Executive</span> Team
           </h1>
-
           <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
             incidunt ex placeat modi magni quia error alias, adipisci rem
             similique, at omnis eligendi optio eos harum.
           </p>
-
+          {/* about section */}
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            {/* person one */}
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
@@ -78,7 +79,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-
+            {/* person two */}
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
