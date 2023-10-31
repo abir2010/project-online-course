@@ -15,6 +15,7 @@ This is a demo project, based on online course management system.
 
 ```
 cd my-app
+npm install
 npm run dev
 ```
 
