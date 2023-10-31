@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Cslider from "./Components/Cslider/Cslider";
 import CourseProvider from "./Components/Contexts/CourseProvider";
 import Feature from "./Components/Feature/Feature";
+import Pricing from "./Components/Pricing/Pricing";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Cslider />
       <Feature />
+      <Pricing />
       <Footer />
     </CourseProvider>
   );
