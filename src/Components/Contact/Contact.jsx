@@ -12,7 +12,7 @@ export default function Contact() {
             <iframe
               width="100%"
               height="100%"
-              className="absolute inset-0"
+              className="absolute inset-0 "
               frameBorder={0}
               title="map"
               marginHeight={0}
@@ -21,7 +21,7 @@ export default function Contact() {
               src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
               style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
             />
-            <div className="flex flex-wrap py-6 rounded shadow-md">
+            <div className="flex flex-wrap py-6 rounded shadow-md bg-white">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS

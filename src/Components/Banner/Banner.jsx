@@ -1,5 +1,4 @@
 import top from "../../images/top.png";
-import Button from "./../Button/Button";
 
 export default function Banner() {
   return (

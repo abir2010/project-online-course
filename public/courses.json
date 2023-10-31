@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Frontend Development Bootcamp",
-    "image": "https://images.unsplash.com/photo-1531493657527-6d1af0c4c593?auto=format&fit=crop&q=80&w=1332&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "https://th.bing.com/th/id/R.51c85384af020c75ea2f4eb04a1afbfb?rik=HfPlypCMCWGGqg&pid=ImgRaw&r=0",
     "des": "Non blandit massa enim nec dui nunc mattis enim. Feugiat pretium nibh ipsum consequat nisl vel pretium. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pretium quam vulputate dignissim suspendisse in est ante in nibh.",
     "price": 199,
     "duration": 6,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Cyber 360",
-    "image": "https://www.dataplugs.com/wp-content/uploads/2022/09/blog_0929.jpg",
+    "image": "https://th.bing.com/th/id/R.c8ad916515c3264e6c5ab2ef3c43023d?rik=nrEnTnS3YKLCsg&riu=http%3a%2f%2fwww.drizgroup.com%2fuploads%2f6%2f4%2f4%2f7%2f6447121%2ftdg-cybersecurity-services-min_orig.jpg&ehk=mLccBQJZVz1y2yaXz6rReljEN6QlG8k88LGPT5Ss0zo%3d&risl=&pid=ImgRaw&r=0",
     "des": "Pretium quam vulputate dignissim suspendisse in est ante in nibh. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Mi quis hendrerit dolor magna eget. Amet facilisis magna etiam tempor orci.",
     "price": 99,
     "duration": 5,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Machine learning with Python",
-    "image": "https://th.bing.com/th/id/OIP.VRbrA-5P0bs5qNseo-eU-AHaE2?pid=ImgDet&rs=1",
+    "image": "https://www.htechtrends.com/wp-content/uploads/2021/01/What-is-Machine-Learning-01-1-scaled.jpg",
     "des": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "price": 129,
     "duration": 2,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "MySQL Database Course",
-    "image": "https://cdn.hackersandslackers.com/2018/04/mysql1.jpg",
+    "image": "https://wpforms.com/wp-content/uploads/2019/04/shared-vs-managed-wordpress-hosting.png",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "price": 179,
     "duration": 6,

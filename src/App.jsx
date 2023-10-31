@@ -15,6 +15,7 @@ import { BrowserRouter } from "react-router-dom";
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
+import BackToTop from "./Components/BackToTop/BackToTop";
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -64,7 +65,7 @@ function App() {
               },
               links: {
                 color: "#000",
-                distance: 150,
+                distance: 100,
                 enable: true,
                 opacity: 0.5,
                 width: 1,
@@ -84,7 +85,7 @@ function App() {
                   enable: true,
                   area: 800,
                 },
-                value: 80,
+                value: 50,
               },
               opacity: {
                 value: 0.5,
@@ -93,7 +94,7 @@ function App() {
                 type: "circle",
               },
               size: {
-                value: { min: 1, max: 5 },
+                value: { min: 1, max: 2 },
               },
             },
             detectRetina: true,
@@ -109,6 +110,7 @@ function App() {
         <About />
         <Contact />
         <Footer />
+        <BackToTop />
       </BrowserRouter>
     </CourseProvider>
   );
