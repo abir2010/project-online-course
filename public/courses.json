@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Frontend Development Bootcamp",
+    "image": "https://images.unsplash.com/photo-1531493657527-6d1af0c4c593?auto=format&fit=crop&q=80&w=1332&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "des": "Non blandit massa enim nec dui nunc mattis enim. Feugiat pretium nibh ipsum consequat nisl vel pretium. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pretium quam vulputate dignissim suspendisse in est ante in nibh.",
+    "price": 199,
+    "duration": 6,
+    "rating": 4.1
+  },
+  {
+    "id": 2,
+    "name": "Node JS tutorial",
+    "image": "https://th.bing.com/th/id/R.53fd0e7f686dfd416369bb4ea44d8967?rik=S2lteXq0Wh1l1Q&pid=ImgRaw&r=0",
+    "des": "Tristique senectus et netus et malesuada. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Porttitor lacus luctus accumsan tortor. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in.",
+    "price": 99,
+    "duration": 4,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Data Science Career",
+    "image": "https://1.bp.blogspot.com/-xnPYh9MVN2M/XhFRUp52OmI/AAAAAAAAUiA/r7OXwRpMe6QVP98tg1B5lJloCWxYlXJnwCLcBGAsYHQ/w1200-h630-p-k-no-nu/what-is-data-science.jpg",
+    "des": "Id cursus metus aliquam eleifend mi in. Commodo quis imperdiet massa tincidunt nunc. Ut tortor pretium viverra suspendisse potenti nullam ac. Feugiat pretium nibh ipsum consequat nisl. Neque gravida in fermentum et.",
+    "price": 239,
+    "duration": 8,
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Cyber 360",
+    "image": "https://www.dataplugs.com/wp-content/uploads/2022/09/blog_0929.jpg",
+    "des": "Pretium quam vulputate dignissim suspendisse in est ante in nibh. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Mi quis hendrerit dolor magna eget. Amet facilisis magna etiam tempor orci.",
+    "price": 99,
+    "duration": 5,
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Machine learning with Python",
+    "image": "https://th.bing.com/th/id/OIP.VRbrA-5P0bs5qNseo-eU-AHaE2?pid=ImgDet&rs=1",
+    "des": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 129,
+    "duration": 2,
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "MySQL Database Course",
+    "image": "https://cdn.hackersandslackers.com/2018/04/mysql1.jpg",
+    "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "price": 179,
+    "duration": 6,
+    "rating": 4.2
+  }
+]

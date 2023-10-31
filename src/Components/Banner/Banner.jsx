@@ -1,4 +1,5 @@
 import top from "../../images/top.png";
+import Button from "./../Button/Button";
 
 export default function Banner() {
   return (
@@ -101,12 +102,7 @@ export default function Banner() {
                     />
                   </div>
                   <div className="mt-4 mb-2 sm:mb-4">
-                    <button
-                      type="submit"
-                      className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                    >
-                      Subscribe
-                    </button>
+                    <Button />
                   </div>
                   <p className="text-xs text-gray-600 sm:text-sm">
                     We respect your privacy. Unsubscribe at any time.
